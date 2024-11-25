@@ -55,3 +55,10 @@ const mySwiper = new Swiper(".mv02 .swiper", {
     },
   },
 });
+// GSAPfフッターロゴ
+gsap.to(".name-wrap", {
+  xPercent: 100,
+  duration: 5,
+  repeat: -1,
+  ease: "none",
+});

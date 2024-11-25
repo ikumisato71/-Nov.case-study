@@ -37,6 +37,12 @@
     <link rel="shortcut icon" href="favicon.ico" />
 
     <!-- css -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600;700;800;900&family=Montserrat:ital,wght@0,100;0,300;0,400;1,200&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -159,9 +165,11 @@
             私たちは、お客様のライフスタイルに寄り添い、
             快適で魅力的な住空間を創るリフォームの専門家です。省エネやバリアフリーもお任せください！
           </h2>
-          <img src="img/6-1.jpg" alt="" />
-          <img src="img/case04.jpg" alt="" />
-          <img src="img/service.jpg" alt="" />
+          <div class="business__item">
+            <img src="img/6-1.jpg" alt="" />
+            <img src="img/case04.jpg" alt="" />
+            <img src="img/service.jpg" alt="" />
+          </div>
         </section>
         <section id="news">
           <div class="title-logo">
@@ -176,7 +184,7 @@
         </section>
         <section id="case-wrapper">
           <h3>参考事例</h3>
-          <div class="case__img">
+          <div class="case__item">
             <img src="img/6.jpg" alt="" />
             <img src="img/2-1.jpg" alt="" />
             <img src="img/5.jpg" alt="" />
@@ -189,10 +197,23 @@
           <div class="title-logo">
             <img src="img/Group 6.svg" alt="blogロゴ" />
           </div>
-          <div class="blog-img">
+          <div class="blog__item">
             <img src="img/hero.jpg" alt="" />
+            <p>
+              texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext
+            </p>
+          </div>
+          <div class="blog__item">
             <img src="img/case03.jpg" alt="" />
+            <p>
+              texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext
+            </p>
+          </div>
+          <div class="blog__item">
             <img src="img/1-scaled.jpg" alt="" />
+            <p>
+              texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext
+            </p>
           </div>
         </section>
         <section id="contact">
@@ -215,7 +236,16 @@
         <section id="company"></section>
       </article>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="name-container">
+        <div class="name-wrap">
+          <h1 class="name-text">Design Reform</h1>
+        </div>
+        <div class="name-wrap name-wrap-right">
+          <h1 class="name-text">Design Reform</h1>
+        </div>
+      </div>
+    </footer>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"

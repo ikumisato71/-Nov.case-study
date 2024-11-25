@@ -448,12 +448,12 @@ main {
 
 header {
   display: flex;
-}
-header .logo img {
-  width: 30%;
+  justify-content: space-between;
+  padding: 15px;
 }
 header .list {
   display: flex;
+  gap: 30px;
 }
 @media screen and (max-width: 768px) {
   header .list {
@@ -710,6 +710,80 @@ header .list {
   }
 }
 
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-button {
+  width: 1px;
+  height: 1px;
+}
+
+.name-container {
+  display: flex;
+  width: 100%;
+  position: relative;
+  margin-top: 100px;
+  height: 1000px;
+}
+
+.name-wrap {
+  white-space: nowrap;
+  width: 100%;
+  position: relative;
+}
+
+.name-wrap-right {
+  position: absolute;
+  right: 100vw;
+}
+
+.name-text {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-size: 15vw;
+}
+
 .title-logo {
-  width: 50%;
+  width: 30%;
+  padding: 10px;
+}
+
+.business__item {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.business__item img {
+  width: 30%;
+}
+
+.news-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.news-wrapper img {
+  width: 40%;
+  padding: 20px;
+}
+
+.case__item {
+  display: flex;
+  width: 20%;
+}
+
+.blog__item {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.blog__item img {
+  width: 30%;
 }/*# sourceMappingURL=style.css.map */
