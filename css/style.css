@@ -423,6 +423,27 @@ svg {
   height: auto;
 }
 
-.header {
-  color: yellow;
+.button {
+  color: #333;
+  font-size: 16px;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 16px;
+  border: 1px solid #333;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+}
+header .logo img {
+  width: 30%;
+}
+header .list {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  header .list {
+    display: block;
+  }
 }/*# sourceMappingURL=style.css.map */
